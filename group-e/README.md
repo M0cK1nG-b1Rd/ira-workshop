@@ -1,307 +1,302 @@
-﻿# Group-E 工作区
+﻿# GROUP-E 宸ヤ綔鍖?
 
-## 📋 小组成员
+## 馃搵 灏忕粍鎴愬憳
 
-| 编号 | 姓名 | GitHub 用户名 | 角色 |
-| ---- | ---- | ------------- | ---- |
-| 01   |      |               |      |
-| 02   |      |               |      |
-| 03   |      |               |      |
-| 04   |      |               |      |
-| 05   |      |               |      |
-| 06   |      |               |      |
-| 07   |      |               |      |
-| 08   |      |               |      |
-| 09   |      |               |      |
-| 10   |      |               | 组长 |
-
----
-
-## 🎯 任务分配
-
-### M1 模块：投研问答助手
-
-- 负责人：`01`, `02`
-- 截止日期：Day 3
-
-### M2 模块：多源数据集成
-
-- 负责人：`03`, `04`
-- 截止日期：Day 4
-
-### M3 模块：知识库与问答
-
-- 负责人：`05`, `06`
-- 截止日期：Day 4
-
-### M4 模块：通知系统
-
-- 负责人：`07`, `08`
-- 截止日期：Day 5
-
-### M5 模块：多 Agent 协作
-
-- 负责人：`09`, `10`
-- 截止日期：Day 5
+| 缂栧彿 | 濮撳悕 | GitHub 鐢ㄦ埛鍚?| 瑙掕壊 |
+|------|------|--------------|------|
+| 01 |  |  |  |
+| 02 |  |  |  |
+| 03 |  |  |  |
+| 04 |  |  |  |
+| 05 |  |  |  |
+| 06 |  |  |  |
+| 07 |  |  |  |
+| 08 |  |  |  |
+| 09 |  |  |  |
+| 10 |  |  | 缁勯暱 |
 
 ---
 
-## 📁 目录结构
+## 馃幆 浠诲姟鍒嗛厤
+
+### M1 妯″潡锛氭姇鐮旈棶绛斿姪鎵?
+- 璐熻矗浜猴細`01`, `02`
+- 鎴鏃ユ湡锛欴ay 3
+
+### M2 妯″潡锛氬婧愭暟鎹泦鎴?
+- 璐熻矗浜猴細`03`, `04`
+- 鎴鏃ユ湡锛欴ay 4
+
+### M3 妯″潡锛氱煡璇嗗簱涓庨棶绛?
+- 璐熻矗浜猴細`05`, `06`
+- 鎴鏃ユ湡锛欴ay 4
+
+### M4 妯″潡锛氶€氱煡绯荤粺
+- 璐熻矗浜猴細`07`, `08`
+- 鎴鏃ユ湡锛欴ay 5
+
+### M5 妯″潡锛氬 Agent 鍗忎綔
+- 璐熻矗浜猴細`09`, `10`
+- 鎴鏃ユ湡锛欴ay 5
+
+---
+
+## 馃搧 鐩綍缁撴瀯
 
 ```
-group-e/
-├── 01/
-│   ├── backend/          # 后端代码
-│   │   └── tests/        # 测试代码
-│   └── docs/             # Spec 文档
-├── 02/
-│   ├── backend/
-│   │   └── tests/
-│   └── docs/
-└── ... (03-10)
+GROUP-E/
+鈹溾攢鈹€ 01/
+鈹?  鈹溾攢鈹€ backend/          # 鍚庣浠ｇ爜
+鈹?  鈹?  鈹斺攢鈹€ tests/        # 娴嬭瘯浠ｇ爜
+鈹?  鈹斺攢鈹€ docs/             # Spec 鏂囨。
+鈹溾攢鈹€ 02/
+鈹?  鈹溾攢鈹€ backend/
+鈹?  鈹?  鈹斺攢鈹€ tests/
+鈹?  鈹斺攢鈹€ docs/
+鈹斺攢鈹€ ... (03-10)
 ```
 
 ---
 
-## 🚀 工作流程
+## 馃殌 宸ヤ綔娴佺▼
 
-### 1. Fork 主仓库
+### 1. Fork 涓讳粨搴?
 
 ```bash
-# 在 GitHub 上访问主仓库
+# 鍦?GitHub 涓婅闂富浠撳簱
 https://github.com/lvzhaobo/ira-workshop
 
-# 点击右上角 "Fork" 按钮，创建你自己的副本
+# 鐐瑰嚮鍙充笂瑙?"Fork" 鎸夐挳锛屽垱寤轰綘鑷繁鐨勫壇鏈?
 ```
 
-### 2. 克隆到本地
+### 2. 鍏嬮殕鍒版湰鍦?
 
 ```bash
-# 使用 SSH 克隆（推荐）
-git clone git@github.com:你的用户名/ira-workshop.git
+# 浣跨敤 SSH 鍏嬮殕锛堟帹鑽愶級
+git clone git@github.com:浣犵殑鐢ㄦ埛鍚?ira-workshop.git
 
-# 或使用 HTTPS
-git clone https://github.com/你的用户名/ira-workshop.git
+# 鎴栦娇鐢?HTTPS
+git clone https://github.com/浣犵殑鐢ㄦ埛鍚?ira-workshop.git
 ```
 
-### 3. 添加上游远程仓库
+### 3. 娣诲姞涓婃父杩滅▼浠撳簱
 
 ```bash
 cd ira-workshop
 
-# 添加主仓库为 upstream
+# 娣诲姞涓讳粨搴撲负 upstream
 git remote add upstream git@github.com:lvzhaobo/ira-workshop.git
 
-# 验证
+# 楠岃瘉
 git remote -v
-# origin    => 你的 Fork
-# upstream  => 主仓库
+# origin    => 浣犵殑 Fork
+# upstream  => 涓讳粨搴?
 ```
 
-### 4. 创建分支
+### 4. 鍒涘缓鍒嗘敮
 
 ```bash
-# 保持与主仓库同步
+# 淇濇寔涓庝富浠撳簱鍚屾
 git checkout main
 git pull upstream main
 
-# 创建你的工作分支
-git checkout -b feature/group-e-01-m1
+# 鍒涘缓浣犵殑宸ヤ綔鍒嗘敮
+git checkout -b feature/GROUP-E-01-m1
 
-# 命名规范：
-# feature/group-e-{编号}-{模块名}
-# 示例：feature/group-e-01-m1
-#       feature/group-e-03-m2
+# 鍛藉悕瑙勮寖锛?
+# feature/GROUP-E-{缂栧彿}-{妯″潡鍚峿
+# 绀轰緥锛歠eature/GROUP-E-01-m1
+#       feature/GROUP-E-03-m2
 ```
 
-### 5. 开发与提交
+### 5. 寮€鍙戜笌鎻愪氦
 
 ```bash
-# 在你的目录中工作
-# 例如：01 成员编辑 group-e/01/ 目录
+# 鍦ㄤ綘鐨勭洰褰曚腑宸ヤ綔
+# 渚嬪锛?1 鎴愬憳缂栬緫 GROUP-E/01/ 鐩綍
 
-# 查看状态
+# 鏌ョ湅鐘舵€?
 git status
 
-# 添加文件
-git add group-e/01/
+# 娣诲姞鏂囦欢
+git add GROUP-E/01/
 
-# 提交
-git commit -m "feat: 完成 M1 模块 Spec 文档
+# 鎻愪氦
+git commit -m "feat: 瀹屾垚 M1 妯″潡 Spec 鏂囨。
 
-- 添加 03-立项提案.md
-- 添加 05-用户故事.md
-- 添加 09-API接口规格.md"
+- 娣诲姞 03-绔嬮」鎻愭.md
+- 娣诲姞 05-鐢ㄦ埛鏁呬簨.md
+- 娣诲姞 09-API鎺ュ彛瑙勬牸.md"
 
-# 推送到你的 Fork
-git push origin feature/group-e-01-m1
+# 鎺ㄩ€佸埌浣犵殑 Fork
+git push origin feature/GROUP-E-01-m1
 ```
 
-### 6. 提交 PR（Pull Request）
+### 6. 鎻愪氦 PR锛圥ull Request锛?
 
 ```bash
-# 方式 1：使用 GitHub 网页
-1. 访问你的 Fork：https://github.com/你的用户名/ira-workshop
-2. 点击 "Compare & pull request"
-3. 设置：
+# 鏂瑰紡 1锛氫娇鐢?GitHub 缃戦〉
+1. 璁块棶浣犵殑 Fork锛歨ttps://github.com/浣犵殑鐢ㄦ埛鍚?ira-workshop
+2. 鐐瑰嚮 "Compare & pull request"
+3. 璁剧疆锛?
    - base repository: lvzhaobo/ira-workshop
    - base branch: main
-   - head branch: feature/group-e-01-m1
-4. 填写 PR 描述
-5. 点击 "Create pull request"
+   - head branch: feature/GROUP-E-01-m1
+4. 濉啓 PR 鎻忚堪
+5. 鐐瑰嚮 "Create pull request"
 
-# 方式 2：使用 GitHub CLI
+# 鏂瑰紡 2锛氫娇鐢?GitHub CLI
 gh pr create \
   --base main \
-  --head feature/group-e-01-m1 \
-  --title "Group-E-01: 完成 M1 模块" \
-  --body "已完成 M1 模块的 Spec 文档和基础代码"
+  --head feature/GROUP-E-01-m1 \
+  --title "GROUP-E-01: 瀹屾垚 M1 妯″潡" \
+  --body "宸插畬鎴?M1 妯″潡鐨?Spec 鏂囨。鍜屽熀纭€浠ｇ爜"
 ```
 
 ---
 
-## 📝 PR 提交规范
+## 馃摑 PR 鎻愪氦瑙勮寖
 
-### PR 标题格式
+### PR 鏍囬鏍煎紡
 
 ```
-Group-{组名}-{编号}: {简短描述}
+Group-{缁勫悕}-{缂栧彿}: {绠€鐭弿杩皚
 
-示例：
-Group-E-01: 完成 M1 模块 Spec 文档
-Group-E-03: 实现多源数据集成
-Group-E-05: 添加知识库问答功能
+绀轰緥锛?
+GROUP-E-01: 瀹屾垚 M1 妯″潡 Spec 鏂囨。
+GROUP-E-03: 瀹炵幇澶氭簮鏁版嵁闆嗘垚
+GROUP-E-05: 娣诲姞鐭ヨ瘑搴撻棶绛斿姛鑳?
 ```
 
-### PR 描述模板
+### PR 鎻忚堪妯℃澘
 
 ```markdown
-## 📋 任务信息
+## 馃搵 浠诲姟淇℃伅
 
-- **组别**: Group-E
-- **成员**: 01（姓名）
-- **模块**: M1 - 投研问答助手
-- **阶段**: Spec 文档 / 代码实现 / 测试
+- **缁勫埆**: GROUP-E
+- **鎴愬憳**: 01锛堝鍚嶏級
+- **妯″潡**: M1 - 鎶曠爺闂瓟鍔╂墜
+- **闃舵**: Spec 鏂囨。 / 浠ｇ爜瀹炵幇 / 娴嬭瘯
 
-## ✅ 完成内容
+## 鉁?瀹屾垚鍐呭
 
-- [ ] 03-立项提案与范围说明
-- [ ] 05-用户故事与验收标准
-- [ ] 09-API 接口规格
-- [ ] 13-测试策略与质量门禁
-- [ ] 14-需求追踪矩阵
-- [ ] 后端代码实现
-- [ ] 前端代码实现
-- [ ] 测试用例
+- [ ] 03-绔嬮」鎻愭涓庤寖鍥磋鏄?
+- [ ] 05-鐢ㄦ埛鏁呬簨涓庨獙鏀舵爣鍑?
+- [ ] 09-API 鎺ュ彛瑙勬牸
+- [ ] 13-娴嬭瘯绛栫暐涓庤川閲忛棬绂?
+- [ ] 14-闇€姹傝拷韪煩闃?
+- [ ] 鍚庣浠ｇ爜瀹炵幇
+- [ ] 鍓嶇浠ｇ爜瀹炵幇
+- [ ] 娴嬭瘯鐢ㄤ緥
 
-## 🔗 相关文档
+## 馃敆 鐩稿叧鏂囨。
 
-- Spec 文档路径：`group-e/01/docs/`
-- 代码路径：`group-e/01/backend/`
+- Spec 鏂囨。璺緞锛歚GROUP-E/01/docs/`
+- 浠ｇ爜璺緞锛歚GROUP-E/01/backend/`
 
-## 📸 截图（如有）
+## 馃摳 鎴浘锛堝鏈夛級
 
-（添加界面截图或运行结果）
+锛堟坊鍔犵晫闈㈡埅鍥炬垨杩愯缁撴灉锛?
 
-## 💬 备注
+## 馃挰 澶囨敞
 
-（其他说明或问题）
+锛堝叾浠栬鏄庢垨闂锛?
 ```
 
 ---
 
-## ⚠️ 注意事项
+## 鈿狅笍 娉ㄦ剰浜嬮」
 
-### 1. 只编辑自己的目录
+### 1. 鍙紪杈戣嚜宸辩殑鐩綍
 
-- ✅ 可以编辑：`group-e/01/`, `group-e/02/`, ...
-- ❌ 不要编辑：`group-a/`, `group-c/`, 其他组的目录
+- 鉁?鍙互缂栬緫锛歚GROUP-E/01/`, `GROUP-E/02/`, ...
+- 鉂?涓嶈缂栬緫锛歚group-b/`, `group-c/`, 鍏朵粬缁勭殑鐩綍
 
-### 2. 每天同步主仓库
+### 2. 姣忓ぉ鍚屾涓讳粨搴?
 
 ```bash
-# 每天早上执行
+# 姣忓ぉ鏃╀笂鎵ц
 git checkout main
 git pull upstream main
 git push origin main
 ```
 
-### 3. 提交前检查
+### 3. 鎻愪氦鍓嶆鏌?
 
 ```bash
-# 确保只提交了自己的文件
+# 纭繚鍙彁浜や簡鑷繁鐨勬枃浠?
 git status
 
-# 查看变更内容
+# 鏌ョ湅鍙樻洿鍐呭
 git diff --staged
 
-# 确保没有提交敏感信息（API Key、密码等）
+# 纭繚娌℃湁鎻愪氦鏁忔劅淇℃伅锛圓PI Key銆佸瘑鐮佺瓑锛?
 ```
 
-### 4. 遇到冲突怎么办？
+### 4. 閬囧埌鍐茬獊鎬庝箞鍔烇紵
 
 ```bash
-# 拉取最新代码
+# 鎷夊彇鏈€鏂颁唬鐮?
 git fetch upstream
 git merge upstream/main
 
-# 如果有冲突，手动解决后提交
-git add <解决冲突的文件>
-git commit -m "merge: 解决与 main 分支的冲突"
-git push origin feature/group-e-01-m1
+# 濡傛灉鏈夊啿绐侊紝鎵嬪姩瑙ｅ喅鍚庢彁浜?
+git add <瑙ｅ喅鍐茬獊鐨勬枃浠?
+git commit -m "merge: 瑙ｅ喅涓?main 鍒嗘敮鐨勫啿绐?
+git push origin feature/GROUP-E-01-m1
 ```
 
 ---
 
-## 📊 进度追踪
+## 馃搳 杩涘害杩借釜
 
-| 成员 | M1  | M2  | M3  | M4  | M5  | 状态   |
-| ---- | --- | --- | --- | --- | --- | ------ |
-| 01   | ⬜  | ⬜  | ⬜  | ⬜  | ⬜  | 未开始 |
-| 02   | ⬜  | ⬜  | ⬜  | ⬜  | ⬜  | 未开始 |
-| 03   | ⬜  | ⬜  | ⬜  | ⬜  | ⬜  | 未开始 |
-| 04   | ⬜  | ⬜  | ⬜  | ⬜  | ⬜  | 未开始 |
-| 05   | ⬜  | ⬜  | ⬜  | ⬜  | ⬜  | 未开始 |
-| 06   | ⬜  | ⬜  | ⬜  | ⬜  | ⬜  | 未开始 |
-| 07   | ⬜  | ⬜  | ⬜  | ⬜  | ⬜  | 未开始 |
-| 08   | ⬜  | ⬜  | ⬜  | ⬜  | ⬜  | 未开始 |
-| 09   | ⬜  | ⬜  | ⬜  | ⬜  | ⬜  | 未开始 |
-| 10   | ⬜  | ⬜  | ⬜  | ⬜  | ⬜  | 未开始 |
+| 鎴愬憳 | M1 | M2 | M3 | M4 | M5 | 鐘舵€?|
+|------|----|----|----|----|----|------|
+| 01 | 猬?| 猬?| 猬?| 猬?| 猬?| 鏈紑濮?|
+| 02 | 猬?| 猬?| 猬?| 猬?| 猬?| 鏈紑濮?|
+| 03 | 猬?| 猬?| 猬?| 猬?| 猬?| 鏈紑濮?|
+| 04 | 猬?| 猬?| 猬?| 猬?| 猬?| 鏈紑濮?|
+| 05 | 猬?| 猬?| 猬?| 猬?| 猬?| 鏈紑濮?|
+| 06 | 猬?| 猬?| 猬?| 猬?| 猬?| 鏈紑濮?|
+| 07 | 猬?| 猬?| 猬?| 猬?| 猬?| 鏈紑濮?|
+| 08 | 猬?| 猬?| 猬?| 猬?| 猬?| 鏈紑濮?|
+| 09 | 猬?| 猬?| 猬?| 猬?| 猬?| 鏈紑濮?|
+| 10 | 猬?| 猬?| 猬?| 猬?| 猬?| 鏈紑濮?|
 
-**图例**：⬜ 未开始 | 🟡 进行中 | ✅ 已完成 | ❌ 有问题
+**鍥句緥**锛氣瑴 鏈紑濮?| 馃煛 杩涜涓?| 鉁?宸插畬鎴?| 鉂?鏈夐棶棰?
 
 ---
 
-## 🆘 获取帮助
+## 馃啒 鑾峰彇甯姪
 
-### 常见问题
+### 甯歌闂
 
-1. **无法克隆仓库？**
-   - 检查 SSH Key 配置：`ssh -T git@github.com`
-   - 或使用 HTTPS：`git clone https://github.com/...`
+1. **鏃犳硶鍏嬮殕浠撳簱锛?*
+   - 妫€鏌?SSH Key 閰嶇疆锛歚ssh -T git@github.com`
+   - 鎴栦娇鐢?HTTPS锛歚git clone https://github.com/...`
 
-2. **提交 PR 失败？**
-   - 确保 Fork 了主仓库
-   - 确保推送到了自己的 Fork（origin）
+2. **鎻愪氦 PR 澶辫触锛?*
+   - 纭繚 Fork 浜嗕富浠撳簱
+   - 纭繚鎺ㄩ€佸埌浜嗚嚜宸辩殑 Fork锛坥rigin锛?
 
-3. **遇到 Git 冲突？**
-   - 先拉取最新代码：`git pull upstream main`
-   - 手动解决冲突后再提交
+3. **閬囧埌 Git 鍐茬獊锛?*
+   - 鍏堟媺鍙栨渶鏂颁唬鐮侊細`git pull upstream main`
+   - 鎵嬪姩瑙ｅ喅鍐茬獊鍚庡啀鎻愪氦
 
-### 联系讲师
+### 鑱旂郴璁插笀
 
 - GitHub: @lvzhaobo
-- 问题反馈：在主仓库创建 Issue
+- 闂鍙嶉锛氬湪涓讳粨搴撳垱寤?Issue
 
 ---
 
-## 📚 学习资源
+## 馃摎 瀛︿範璧勬簮
 
-- [Spec Coding 文档体系](../.templates/M1/)
-- [Git 提交规范](https://www.conventionalcommits.org/)
-- [GitHub PR 教程](https://docs.github.com/en/pull-requests)
+- [Spec Coding 鏂囨。浣撶郴](../.templates/M1/)
+- [Git 鎻愪氦瑙勮寖](https://www.conventionalcommits.org/)
+- [GitHub PR 鏁欑▼](https://docs.github.com/en/pull-requests)
 
 ---
 
-> **最后更新**: 2026-04-13
-> **维护者**: Group-E 全体成员
+> **鏈€鍚庢洿鏂?*: 2026-04-13
+> **缁存姢鑰?*: GROUP-E 鍏ㄤ綋鎴愬憳
